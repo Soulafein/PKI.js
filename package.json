@@ -33,12 +33,12 @@
     "rollup-plugin-node-resolve": "^1.7.1"
   },
   "dependencies": {
-    "asn1js": "latest",
+    "@fortanix/asn1js": "latest",
     "bytestreamjs": "latest",
     "pvutils": "latest"
   },
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=4.0.0"
   },
   "scripts": {
     "build": "babel src --compact=false --out-dir build --source-maps",
@@ -101,7 +101,7 @@
   "jsnext:main": "./src/index.js",
   "module": "./src/index.js",
   "main": "./build/index.js",
-  "name": "pkijs",
+  "name": "@fortanix/pkijs",
   "version": "2.1.70",
   "license": "MIT",
   "esdoc": {
